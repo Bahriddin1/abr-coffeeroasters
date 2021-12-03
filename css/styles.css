@@ -62,7 +62,8 @@ img{
 }
 
 a:focus{
-  outline: 1px dashed #7296ec;
+  outline: 1px dashed #0A775F;
+  outline-offset: 5px;
 }
 
 .container{
@@ -205,5 +206,57 @@ padding-right: 24px;
   font-variant: small-caps;
 text-decoration: none;
   color: #FFFFFF;
+
+}
+
+/* COLLECTION  */
+
+.collection-container {
+padding-right: 163px;
+padding-left: 163px;
+}
+
+.collection-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  font-variant: small-caps;
+
+  color: #000000;
+}
+.collection-list {
+display: flex;
+flex-direction: column;
+list-style-type: none;
+}
+.collection-list-item {
+display: flex;
+align-items: center;
+}
+.collection-information {
+display: flex;
+flex-direction: column;
+}
+.collection-information-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  font-variant: small-caps;
+
+  color: #333333;
+}
+.collection-information-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+
+  color: #333333;
 
 }
