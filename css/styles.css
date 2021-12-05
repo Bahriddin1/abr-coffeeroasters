@@ -99,6 +99,11 @@ only screen and (                min-resolution: 2dppx) {
   .collection-inner{
     background-image: url(../img/collection-bg@2x.jpg);
     }
+
+    .index-choose-inner {
+    background-image: url(../img/choose-bg@2x.jpg);
+
+      }
 }
 
 
@@ -222,6 +227,7 @@ padding-top: 20px;
 
 .collection-inner{
   padding: 50px 143px;
+  background-color: #F8F8F2;
 background-image: url(../img/collection-bg.jpg);
 }
 
@@ -297,4 +303,104 @@ margin-bottom: 10px;
 
   color: #333333;
 
+}
+
+/* WHY-CHOOSE-US  */
+
+.index-choose-container{
+  padding-top: 20px;
+}
+
+.index-choose-inner {
+display: flex;
+flex-direction: column;
+padding-top: 50px;
+
+background-image: url(../img/choose-bg.jpg);
+
+background-size: auto 700px;
+background-repeat: no-repeat;
+}
+.index-choose-header {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+ text-align: center;
+  font-variant: small-caps;
+
+  color: #FFFFFF;
+}
+.index-choose-text {
+margin-top: 0;
+margin-bottom: 80px;
+  margin-right: 410px;
+  margin-left: 410px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+   text-align: center;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+  color: #FFFFFF;
+}
+.choose-information-list {
+  display: flex;
+  align-items: center;
+list-style-type: none;
+padding: 0;
+margin: 0;
+margin-right: 30px;
+margin-left: 30px;
+
+}
+.choose-information-item {
+  display: flex;
+  flex-direction: column;
+  width: 433px;
+}
+
+.choose-information-item:not(:last-child){
+  margin-right: 20px;
+}
+
+.choose-information-item:last-child .choose-information-item-text{
+  padding-right: 99px;
+}
+
+.choose-information-item-img {
+  margin-top: 0;
+  margin-bottom: 28px;
+
+  width: 433px;
+  height: 500px;
+}
+.choose-information-item-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  font-variant: small-caps;
+
+  color: #333333;
+
+}
+.choose-information-item-text {
+  padding-right: 56px;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #333333;
 }
